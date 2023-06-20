@@ -1,0 +1,93 @@
+div.p5-canvas {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div.canvas {
+    padding-top:10px;
+    padding-bottom: 100px
+}
+
+img.trashIcon {
+    width: 35px;
+    padding-top: 4px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.15s ease-in-out;
+}
+
+img.trashIcon:active {
+    background: grey
+}
+
+@media (pointer:fine) {
+    /* Primary Input is a fine pointer device such as a mouse or stylus */
+    img.trashIcon:hover {
+        opacity: 0.4
+    }
+    img.undoIcon:hover {
+        opacity: 0.4
+    }
+    img.plusCircle:hover {
+        opacity: 0.4
+    }
+    img.minusCircle:hover {
+        opacity: 0.4
+    }
+}
+
+
+img.undoIcon {
+    left: 2px;
+    width: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    transform: rotate(90deg);
+    transition: all 0.15s ease-in-out;
+}
+
+img.undoIcon:active {
+    background: grey
+}
+
+img.plusCircle {
+    width: 35px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+img.plusCircle:active {
+    background: grey
+}
+
+img.minusCircle {
+    width: 35px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+img.minusCircle:active {
+    background: grey
+}
+
+select.size-dropdown-menu {
+    width: 175px;
+    display:inline;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+button.submit-prediction {
+    font-size: 18px;
+}
+
+div.progress {
+    width: 350px
+}
